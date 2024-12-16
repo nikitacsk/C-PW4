@@ -1,0 +1,21 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="Avaloniacsh.MainWindow"
+        Width="400" Height="300"
+        Title="Shape Manager">
+    <StackPanel Margin="10">
+        <TextBlock Text="Enter Shape Type (Sphere, Cube, Pyramid, Prism):" />
+        <TextBox Name="ShapeTypeTextBox" />
+        
+        <Button Name="AddButton" Content="Add Shape" Margin="0,5,0,0" />
+        
+        <TextBlock Text="Enter Index:" Margin="0,10,0,0" />
+        <TextBox Name="IndexTextBox" />
+        
+        <Button Name="RemoveButton" Content="Remove Shape" Margin="0,5,0,0" />
+        <Button Name="GetShapeInfoButton" Content="Get Shape Info by Index" Margin="0,5,0,0" />
+        <Button Name="GetAllShapesInfoButton" Content="Get All Shapes Info" Margin="0,5,0,0" />
+        
+        <TextBlock Name="OutputTextBlock" Margin="0,10,0,0" />
+    </StackPanel>
+</Window>
